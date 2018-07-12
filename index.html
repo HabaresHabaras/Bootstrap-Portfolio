@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="assets/style/style.css">
     <title>Jumbotron Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
@@ -20,7 +21,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-secondary">
         <a class="navbar-brand" href="index.html">JP</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -29,63 +30,68 @@
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                    <span class="sr-only">(current)</span>
+
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact
+                    </a>
                 </li>
             </ul>
 
         </div>
     </nav>
-
-
     <main role="main">
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron bg-success text-white">
-            <div class="container">
-                <h1 class="display-1 text-dark">Welcome</h1>
-                <h4 class="text-white">This is my portfolio, where you can check some samples of the webpages I have created. Feel free to contact me, I'll be happy to help you with your website development needs.</h4>
-            </div>
-        </div>
+        <div class="card bg-dark text-white">
+            <img class="card-img" src="assets/style/Images/cloudsTwo.jpg" alt="Card image">
+            <div class="card-img-overlay">
+                <div class="container bg-white" id="containerHeadingHome">
 
-        <div class="container">
-            <!-- Example row of columns -->
-            <div class="row">
-                <div class=" col-xs-12 col-sm-12 col-md-9">
-                    <h2>My portfolio</h2>
-                    <p>I would like to show you some of my work, so you can have a reference and be aware of my capabilities. Feel free to ask about any of my websites and let me know if I can help you with your project. </p>
-                    <p>
-                        <a class="btn btn-success " href="portfolio.html" role="button">Portfolio &raquo;</a>
-                    </p>
+                    <br>
+                    <h1 class="display-1 text-dark">Welcome</h1>
+                    <h3 class="text-secondary">This is my portfolio, where you can check some samples of the website I've created.</h3>
+                    <h3 class="text-primary">Feel free to contact me, I'm happy to help.</h3>
+                    <br>
+                    <hr>
+                    <div class="container">
+                        <!-- Example row of columns -->
+                        <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title text-dark">Portfolio </h5>
+                              <p class="card-text text-dark">This is where you'll be able to see the websites I've made.</p>
+                              <a href="portfolio.html" class="btn btn-primary">Portfolio&ensp;<i class="fas fa-user fa-2x"></i>
+                              </i> </a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title text-dark">Contact </h5>
+                              <p class="card-text text-dark">Let me know how I can hep with your idea.</p>
+                              <a href="contact.html" class="btn btn-success">Contact&ensp;<i class="fas fa-phone fa-2x"></i>
+                              </i> </a>
+                              <br>
+                            </div>
+                          </div>
+                        <!-- /container -->
+                    </div>
                 </div>
-                <div class=" col-xs-12 col-sm-12 col-md-3">
-                    <h2>About me</h2>
-                    <p>My name is Juan Perez and I'm an aspiring web developer. I recently started learning about javascript and Jquery, and I'm now capable of creating small websites and games. I'm not too experienced but I'm starting to gain confidence in my ability as a web developer. Let me know if I can help you on my contact page. </p>
-                    <p>
-                        <a class="btn btn-success" href="contact.html" role="button">Contact JP &raquo;</a>
-                    </p>
-                </div>
             </div>
 
-            <hr>
 
-        </div>
-        <!-- /container -->
 
     </main>
-
-    <footer class="container">
-        <p>&copy; Company 2017-2018</p>
-    </footer>
-
+    <div id="footer">
+        <div class="container">
+          <p class="muted credit text-white">Copyright 2018</p>
+        </div>
+  </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -95,6 +101,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
+    <script src="assets/javascript.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,9 @@
+#cloudImages{
+    max-width: 100%; /* or to whatever you want here */
+    height:auto; 
+     /* or to whatever you want here */
+}
+
+#containerHeadingHome{
+    padding-top:20px;
+}

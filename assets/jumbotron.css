@@ -1,4 +1,36 @@
-body
-{
-    background-repeat: repeat-y;
+#cloudImages{
+    max-width: 100%; /* or to whatever you want here */
+    height:auto; 
+     /* or to whatever you want here */
+}
+
+#containerHeadingHome{
+    padding: 5vh, 5vh, 5vh, 0vh;
+    margin-top:10vh;
+}
+
+#fullWidth{
+
+}
+
+#footer{
+    padding-top:10vh;
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+.cardPortfolio{
+margin:5vh, 5vh, 5vh, 5vh;
+}
+
+.divCardPortfolio{
+    margin-top:3vh;
+    margin-bottom:3vh;
+}
+
+.cardFromProfile{
+    margin-left:9vh;
+}
+
+.moveLeft{
+    margin-left:18vh;
 }
