@@ -6,4 +6,19 @@
 
 #containerHeadingHome{
     padding-top:20px;
+    padding-bottom:20px;
+}
+.footerUno {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(61, 114, 158);
+    color: white;
+    text-align: center;
+    height:7vh;
+}
+
+.paddingFooterPort{
+    margin-top:30vh;
 }
